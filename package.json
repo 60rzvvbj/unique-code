@@ -7,6 +7,7 @@
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
+    "create": "tsc && node ./dist/create.js",
     "pp": "npm publish --access public"
   },
   "keywords": [
